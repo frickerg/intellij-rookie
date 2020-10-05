@@ -1,4 +1,4 @@
-package com.frickerg;
+package com.frickerg.model;
 
 public class Product {
 
