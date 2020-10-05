@@ -4,11 +4,13 @@ import com.frickerg.model.Product;
 
 public class Main {
 
-    public static void main(String[] args) {
-        System.out.println("Hello World");
+    private static String HELLO_WORLD = "Hello World";
 
-        final String test_product = "Test Product";
-        final Product product = new Product(test_product);
+    public static void main(String[] args) {
+        System.out.println(HELLO_WORLD);
+
+        final String testProduct = "Test Product";
+        final Product product = new Product(testProduct);
         System.out.println(product.getName());
     }
 }
