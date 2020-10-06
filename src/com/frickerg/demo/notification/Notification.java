@@ -17,6 +17,13 @@ public class Notification {
 		this.timestamp = timestamp;
 
 		System.out.println("generated notification: " + this.toString());
+
+		showText();
+	}
+
+	private void showText() {
+		System.out.println("asdf");
+		System.out.println("ghjkl");
 	}
 
 	public String getMessage() {

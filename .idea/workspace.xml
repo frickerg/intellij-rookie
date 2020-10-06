@@ -53,6 +53,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -109,7 +110,7 @@
       <workItem from="1601906930437" duration="4255000" />
       <workItem from="1601986712924" duration="167000" />
       <workItem from="1601989018539" duration="40000" />
-      <workItem from="1601989070574" duration="3436000" />
+      <workItem from="1601989070574" duration="4018000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repo in IntelliJ">
       <created>1601899779354</created>
@@ -197,6 +198,10 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2472" y="309" key="Vcs.Push.Dialog.v2/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601909356376" />
+    <state x="2610" y="330" key="extract.method.dialog" timestamp="1601994134834">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2610" y="330" key="extract.method.dialog/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601994134834" />
     <state x="2588" y="297" width="583" height="566" key="find.popup" timestamp="1601909895636">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
