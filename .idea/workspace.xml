@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142f54dd-64fd-4714-bcc0-c90c076a6fd4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/frickerg/demo/notification/Notification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/frickerg/demo/notification/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/frickerg/demo/notification/Notification.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +109,7 @@
       <workItem from="1601906930437" duration="4255000" />
       <workItem from="1601986712924" duration="167000" />
       <workItem from="1601989018539" duration="40000" />
-      <workItem from="1601989070574" duration="1786000" />
+      <workItem from="1601989070574" duration="2566000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repo in IntelliJ">
       <created>1601899779354</created>
@@ -145,10 +145,10 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2304" y="277" width="1151" height="606" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601904942833" />
-    <state x="2685" y="283" key="#com.intellij.ide.util.MemberChooser" timestamp="1601990826311">
+    <state x="2685" y="283" key="#com.intellij.ide.util.MemberChooser" timestamp="1601991346604">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="2685" y="283" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601990826311" />
+    <state x="2685" y="283" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601991346604" />
     <state x="2623" y="415" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601904768707">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
@@ -205,16 +205,5 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601909459903" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/frickerg/demo/notification/Notification.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
