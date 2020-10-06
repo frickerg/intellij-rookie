@@ -15,6 +15,8 @@ public class Notification {
 	public Notification(String message, ZonedDateTime timestamp) {
 		this.message = message;
 		this.timestamp = timestamp;
+
+		System.out.println("generated notification: " + this.toString());
 	}
 
 	public String getMessage() {
