@@ -18,12 +18,12 @@ public class Notification {
 
 		System.out.println("generated notification: " + this.toString());
 
-		showText();
+		showText("asdf", "ghjkl");
 	}
 
-	private void showText() {
-		System.out.println("asdf");
-		System.out.println("ghjkl");
+	private void showText(String string1, String string2) {
+		System.out.println(string1);
+		System.out.println(string2);
 	}
 
 	public String getMessage() {
