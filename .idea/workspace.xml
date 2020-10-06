@@ -20,6 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142f54dd-64fd-4714-bcc0-c90c076a6fd4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/frickerg/demo/notification/Notification.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -63,7 +64,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -107,6 +108,8 @@
       <workItem from="1601904331037" duration="2478000" />
       <workItem from="1601906930437" duration="4255000" />
       <workItem from="1601986712924" duration="167000" />
+      <workItem from="1601989018539" duration="40000" />
+      <workItem from="1601989070574" duration="1786000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repo in IntelliJ">
       <created>1601899779354</created>
@@ -142,10 +145,10 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2304" y="277" width="1151" height="606" key="#com.intellij.featureStatistics.actions.ShowFeatureUsageStatisticsDialog/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601904942833" />
-    <state x="2685" y="283" key="#com.intellij.ide.util.MemberChooser" timestamp="1601907369880">
+    <state x="2685" y="283" key="#com.intellij.ide.util.MemberChooser" timestamp="1601990826311">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="2685" y="283" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601907369880" />
+    <state x="2685" y="283" key="#com.intellij.ide.util.MemberChooser/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601990826311" />
     <state x="2623" y="415" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1601904768707">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
@@ -182,14 +185,14 @@
     </state>
     <state width="1877" height="314" key="GridCell.Tab.0.right.inPresentationMode/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601908439457" />
     <state width="1877" height="314" key="GridCell.Tab.0.right/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601969327171" />
-    <state x="922" y="268" key="SettingsEditor" timestamp="1601909333477">
+    <state x="922" y="268" key="SettingsEditor" timestamp="1601990590976">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="922" y="268" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601909333477" />
-    <state x="2601" y="321" width="576" height="540" key="StructurePopup" timestamp="1601910139123">
+    <state x="922" y="268" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601990590976" />
+    <state x="2601" y="321" width="576" height="540" key="StructurePopup" timestamp="1601990643216">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="2601" y="321" width="576" height="540" key="StructurePopup/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601910139123" />
+    <state x="2601" y="321" width="576" height="540" key="StructurePopup/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601990643216" />
     <state x="2472" y="309" key="Vcs.Push.Dialog.v2" timestamp="1601909356376">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
@@ -202,5 +205,16 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601909459903" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/frickerg/demo/notification/Notification.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
