@@ -1,18 +1,18 @@
 package com.frickerg.demo.notification;
 
-import java.time.ZonedDateTime;
+import java.util.Date;
 import java.util.Objects;
 
 public class Notification {
 
 	private String message;
-	private ZonedDateTime timestamp;
+	private Date timestamp;
 
 	public Notification() {
 		// do nothing
 	}
 
-	public Notification(String message, ZonedDateTime timestamp) {
+	public Notification(String message, Date timestamp) {
 		this.message = message;
 		this.timestamp = timestamp;
 
@@ -34,11 +34,11 @@ public class Notification {
 		this.message = message;
 	}
 
-	public ZonedDateTime getTimestamp() {
+	public Date getTimestamp() {
 		return timestamp;
 	}
 
-	public void setTimestamp(ZonedDateTime timestamp) {
+	public void setTimestamp(Date timestamp) {
 		this.timestamp = timestamp;
 	}
 
