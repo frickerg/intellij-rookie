@@ -20,9 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="142f54dd-64fd-4714-bcc0-c90c076a6fd4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/frickerg/demo/notification/NotificationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/frickerg/demo/notification/Notification.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/frickerg/demo/notification/Notification.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/intellij-rookie.iml" beforeDir="false" afterPath="$PROJECT_DIR$/intellij-rookie.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +34,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -50,9 +53,17 @@
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -65,7 +76,15 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.frickerg.demo.notification" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
@@ -78,15 +97,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,7 +127,9 @@
       <workItem from="1601906930437" duration="4255000" />
       <workItem from="1601986712924" duration="167000" />
       <workItem from="1601989018539" duration="40000" />
-      <workItem from="1601989070574" duration="4155000" />
+      <workItem from="1601989070574" duration="5421000" />
+      <workItem from="1602056820182" duration="36000" />
+      <workItem from="1602056868555" duration="976000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repo in IntelliJ">
       <created>1601899779354</created>
@@ -186,10 +205,10 @@
     </state>
     <state width="1877" height="314" key="GridCell.Tab.0.right.inPresentationMode/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601908439457" />
     <state width="1877" height="314" key="GridCell.Tab.0.right/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601969327171" />
-    <state x="922" y="268" key="SettingsEditor" timestamp="1601993484124">
+    <state x="922" y="268" key="SettingsEditor" timestamp="1602057297923">
       <screen x="0" y="0" width="1920" height="1160" />
     </state>
-    <state x="922" y="268" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601993484124" />
+    <state x="922" y="268" key="SettingsEditor/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1602057297923" />
     <state x="2601" y="321" width="576" height="540" key="StructurePopup" timestamp="1601990643216">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
@@ -198,6 +217,14 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2472" y="309" key="Vcs.Push.Dialog.v2/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601909356376" />
+    <state x="2585" y="468" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1602057802505">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2585" y="468" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1602057802505" />
+    <state x="2651" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1602057810453">
+      <screen x="1920" y="0" width="1920" height="1160" />
+    </state>
+    <state x="2651" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1602057810453" />
     <state x="2610" y="330" key="extract.method.dialog" timestamp="1601994134834">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
@@ -206,9 +233,9 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2588" y="297" width="583" height="566" key="find.popup/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601909895636" />
-    <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1601909459903">
+    <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1601994736668">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601909459903" />
+    <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601994736668" />
   </component>
 </project>
