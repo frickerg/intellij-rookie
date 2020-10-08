@@ -95,19 +95,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="NotificationTest.getMessage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="intellij-rookie" />
       <extension name="coverage">
@@ -166,7 +153,6 @@
       <workItem from="1602056868555" duration="1991000" />
       <workItem from="1602084291996" duration="1510000" />
       <workItem from="1602142568118" duration="1000" />
-      <workItem from="1602143972878" duration="1641000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized repo in IntelliJ">
       <created>1601899779354</created>
@@ -290,10 +276,10 @@
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
     <state x="2610" y="330" key="extract.method.dialog/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601994134834" />
-    <state x="2588" y="297" width="583" height="566" key="find.popup" timestamp="1602146065701">
+    <state x="2588" y="297" width="583" height="566" key="find.popup" timestamp="1601909895636">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
-    <state x="2588" y="297" width="583" height="566" key="find.popup/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1602146065701" />
+    <state x="2588" y="297" width="583" height="566" key="find.popup/1920.0.1920.1160/0.0.1920.1160@1920.0.1920.1160" timestamp="1601909895636" />
     <state x="2543" y="255" width="672" height="678" key="search.everywhere.popup" timestamp="1602084482078">
       <screen x="1920" y="0" width="1920" height="1160" />
     </state>
