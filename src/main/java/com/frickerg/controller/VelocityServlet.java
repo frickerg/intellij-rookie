@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.util.List;
 
-public class ProductServlet extends VelocityViewServlet {
+public class VelocityServlet extends VelocityViewServlet {
 
 	ProductService service = new ProductService();
 
@@ -22,6 +22,6 @@ public class ProductServlet extends VelocityViewServlet {
 		List<Product> products = service.getProducts();
 		context.put("products", products);
 
-		return getTemplate("index.vm");
+		return getTemplate("resources/index.vm");
 	}
 }
