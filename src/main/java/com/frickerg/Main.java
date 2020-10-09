@@ -1,6 +1,7 @@
 package com.frickerg;
 
 import com.frickerg.controller.ProductService;
+import com.frickerg.controller.VelocityServlet;
 import com.frickerg.model.Product;
 import org.apache.velocity.Template;
 import org.apache.velocity.VelocityContext;
@@ -17,6 +18,8 @@ public class Main {
 		ProductService productService = new ProductService();
 
 		productService.addProduct(product1);
+		productService.addProduct(product2);
+		productService.addProduct(product3);
 
 		VelocityEngine velocityEngine = new VelocityEngine();
 		velocityEngine.init();
@@ -28,5 +31,7 @@ public class Main {
 
 		StringWriter writer = new StringWriter();
 		t.merge(context, writer);
+
+		VelocityServlet servlet = new VelocityServlet();
 	}
 }
