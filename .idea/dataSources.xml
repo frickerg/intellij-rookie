@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="CISTEC_DEV" uuid="75950783-8338-490b-83e6-867e7cc295b8">
+      <driver-ref>oracle</driver-ref>
+      <synchronize>true</synchronize>
+      <auto-commit>false</auto-commit>
+      <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
+      <jdbc-url>jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=romulus.cistec.com)(PORT=1521)))(CONNECT_DATA=(SID=DEV)(SERVER=DEDICATED)))</jdbc-url>
+    </data-source>
+  </component>
+</project>

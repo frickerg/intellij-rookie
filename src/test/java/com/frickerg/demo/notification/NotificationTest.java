@@ -1,5 +1,6 @@
 package com.frickerg.demo.notification;
 
+import com.frickerg.demo.notification.Notification;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
